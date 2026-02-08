@@ -21,7 +21,7 @@ Il sistema richiede le librerie di sviluppo **OpenSSL** per il calcolo crittogra
     ```
 
 ### 2. Compilazione
-Dalla cartella principale del progetto, eseguire i seguenti comandi per generare gli eseguibili.
+Per generare i file eseguibili del progetto, seguire i seguenti comandi:
 
     mkdir build
     cd build
