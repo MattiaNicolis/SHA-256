@@ -198,7 +198,7 @@
     \section{Test di robustezza}
     È stato simulato l'invio di una richiesta per un file non presente sul server:
     \begin{itemize}
-      \item \textbf{comando}: \verb|./client file_fantasma.txt|
+      \item \textbf{comando}: \verb|./client file.txt|
       \item \textbf{risultato}: il server utilizza la funzione \verb|access()| per verificare l'esistenza del file prima di tentare l'apertura. 
       
       Invece di terminare in modo anomalo (crash), invia correttamente al client una stringa contenente l'errore, garantendo la stabilità del servizio.
